@@ -20,46 +20,62 @@
       </p>
     <![endif]-->
     <header>
-      <h1>Welcome on my beautifully designed site :)</h1>
-      <!-- TODO: Links as <nav><ul><li> -->
+      <h1>Welcome to my Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#games">Games</a></li>
+        </ul>
+      </nav>
+      <button id="theme-toggle">Toggle Dark Mode</button>
     </header>
     <main>
       <article id="about">
-        <h2>I'm Istvan</h2>
+        <h2>I'm Istvan Toth</h2>
       </article>
-      <h3>
-        While I polish this site to perfection, play one of my JavaScript games:
-      </h3>
-      <!-- TODO: Change game list to a table -->
-      <h3>
-        <a
-          href="https://wbtist.github.io/Pig-Game/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >🎮 Pig-Game</a
-        >
-      </h3>
-      <h3>
-        <a
-          href="https://wbtist.github.io/hangman/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >🎮 Hangman</a
-        >
-      </h3>
-
-      <h3>
-        <span class="fade">And/Or </span>visit my GitHub
-        <a
-          href="https://github.com/wbtist"
-          target="_blank"
-          rel="noopener noreferrer"
-          >profile</a
-        >
-      </h3>
+      <section id="games">
+        <h3>
+          While I polish this site to perfection, play one of my JavaScript
+          games:
+        </h3>
+        <table style="width: 100%; text-align: left; margin-top: 20px">
+          <thead>
+            <tr>
+              <th>Game Name</th>
+              <th>Link</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>🎮 Pig-Game</td>
+              <td>
+                <a
+                  href="https://wbtist.github.io/Pig-Game/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Play Game
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>🎮 Hangman</td>
+              <td>
+                <a
+                  href="https://wbtist.github.io/hangman/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Play Game
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
     </main>
     <footer>
-      <p>By Istvan Toth | <time datetime="2025">2025</time></p>
+      <p>By Istvan Toth | <time id="current-year" datetime="2026">2026</time></p>
     </footer>
 
     <script src="script/script.js" async defer></script>
