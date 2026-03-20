@@ -1,39 +1,105 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"><![endif]-->
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Istvan Toth</title>
+    <title>Istvan Toth | Portfolio</title>
     <meta name="description" content="Istvan Toth's GitHub Site" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <!--[if lt IE 7]>
-      <p class="browsehappy">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="#">upgrade your browser</a> to improve your experience.
-      </p>
-    <![endif]-->
     <header>
       <h1>Welcome to my Portfolio</h1>
       <nav>
         <ul>
           <li><a href="#about">About</a></li>
+          <li><a href="#apps">Apps</a></li>
           <li><a href="#games">Games</a></li>
         </ul>
       </nav>
       <button id="theme-toggle">Toggle Dark Mode</button>
     </header>
+
     <main>
       <article id="about">
         <h2>I'm Istvan Toth</h2>
       </article>
+
+      <section id="apps">
+        <h3>Web Applications & Projects:</h3>
+        <table style="width: 100%; text-align: left; margin-top: 20px; margin-bottom: 40px;">
+          <thead>
+            <tr>
+              <th>App Name</th>
+              <th>Link</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>💷 UK Salary Calculator 2026</td>
+              <td>
+                <a
+                  href="https://wbtist.github.io/UK-Salary-Calculator-2026/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Open App
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
       <section id="games">
+        <h3>
+          While I polish this site to perfection, play one of my JavaScript games:
+        </h3>
+        <table style="width: 100%; text-align: left; margin-top: 20px">
+          <thead>
+            <tr>
+              <th>Game Name</th>
+              <th>Link</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>🎮 Pig-Game</td>
+              <td>
+                <a
+                  href="https://wbtist.github.io/Pig-Game/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Play Game
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>🎮 Hangman</td>
+              <td>
+                <a
+                  href="https://wbtist.github.io/hangman/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Play Game
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <footer>
+      <p>By Istvan Toth | <time id="current-year" datetime="2026">2026</time></p>
+    </footer>
+
+    <script src="script/script.js" async defer></script>
+  </body>
+</html>
         <h3>
           While I polish this site to perfection, play one of my JavaScript
           games:
