@@ -9,7 +9,7 @@
 ---
 ## About Me
 
-Welcome to my portfolio! I'm **Istvan Toth**, a passionate and dedicated front-end developer. I currently live in the United Kingdom, in the picturesque town of Ross-on-Wye, Herefordshire, with my wife, Anita.
+Welcome to my portfolio! I'm **Istvan Toth**, a passionate and dedicated front-end developer. I currently live in the United Kingdom.
 
 My main focus is on building clean, fast, and responsive web applications. I apply a "Mobile-First" approach to development and strongly believe that a great user experience (UI/UX) begins with well-written, clean Vanilla HTML, CSS, and JavaScript (ES6+). I prefer not to rely on unnecessarily heavy external frameworks; I like to understand and have full control over every single line of my code.
 
