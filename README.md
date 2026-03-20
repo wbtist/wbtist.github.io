@@ -7,6 +7,13 @@
 **[🌐 View the Live Portfolio Here!](https://wbtist.github.io/)**
 
 ---
+## About Me
+
+Welcome to my portfolio! I'm **Istvan Toth**, a passionate and dedicated front-end developer. I currently live in the United Kingdom, in the picturesque town of Ross-on-Wye, Herefordshire, with my wife, Anita.
+
+My main focus is on building clean, fast, and responsive web applications. I apply a "Mobile-First" approach to development and strongly believe that a great user experience (UI/UX) begins with well-written, clean Vanilla HTML, CSS, and JavaScript (ES6+). I prefer not to rely on unnecessarily heavy external frameworks; I like to understand and have full control over every single line of my code.
+
+The projects featured in my portfolio—such as the **UK Salary Calculator 2026** (built with up-to-date UK tax logic) and my interactive browser games (Pig-Game, Hangman)—are a direct reflection of this philosophy. I am continuously expanding my skill set and am always open to new, innovative challenges.
 
 ## 📌 About This Repository
 Welcome to the source code of my personal GitHub Pages portfolio! This repository serves as the central hub for showcasing my front-end development journey, web applications, and JavaScript browser games. 
