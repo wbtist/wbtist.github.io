@@ -1,4 +1,4 @@
-# 👨‍💻 Istvan Toth | Personal Web Portfolio
+# Istvan Toth | Personal Web Portfolio
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -21,10 +21,10 @@ Welcome to the source code of my personal GitHub Pages portfolio! This repositor
 The site is built with a "Mobile-First" approach, ensuring a seamless and modern user experience across all devices, from desktop monitors to smartphones.
 
 ## ✨ Core Features of the Portfolio
-* **🌓 Persistent Dark/Light Mode:** Includes a custom theme toggle. The site respects system default preferences and saves user choices to `localStorage` for future visits.
-* **📱 Fully Responsive Design:** Utilizes modern CSS media queries to transform data tables into readable, touch-friendly cards on mobile devices.
-* **⚡ Zero Dependencies:** Built entirely with Vanilla HTML5, CSS3, and JavaScript (ES6+). No heavy frameworks or external libraries, ensuring lightning-fast load times.
-* **🎯 Clean Architecture:** Strict separation of concerns between structure (HTML), styling (CSS), and logic (JS).
+ **🌓 Persistent Dark/Light Mode:** Includes a custom theme toggle. The site respects system default preferences and saves user choices to `localStorage` for future visits.
+ **📱 Fully Responsive Design:** Utilizes modern CSS media queries to transform data tables into readable, touch-friendly cards on mobile devices.
+ **⚡ Zero Dependencies:** Built entirely with Vanilla HTML5, CSS3, and JavaScript (ES6+). No heavy frameworks or external libraries, ensuring lightning-fast load times.
+ **🎯 Clean Architecture:** Strict separation of concerns between structure (HTML), styling (CSS), and logic (JS).
 
 ## 🚀 Featured Projects & Applications
 
