@@ -1,0 +1,92 @@
+---
+interface Project {
+  name: string;
+  url: string;
+  actionText: string;
+}
+
+interface Props {
+  id: string;
+  title: string;
+  projects: Project[];
+}
+
+const { id, title, projects } = Astro.props;
+---
+<section id={id} class="glass-panel reveal delay-2">
+  <h3>{title}</h3>
+  <div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Project Name</th>
+          <th class="align-right"></th>
+        </tr>
+      </thead>
+      <tbody>
+        {projects.map((project) => (
+          <tr>
+            <td>
+              <span class="project-name">{project.name}</span>
+            </td>
+            <td>
+              <a
+                href={project.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="action-link"
+              >
+                {project.actionText}
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<style>
+  section {
+    position: relative;
+    overflow: hidden;
+    scroll-margin-top: 100px;
+  }
+
+  .project-name {
+    font-weight: 500;
+    color: var(--text-primary);
+  }
+  
+  th.align-right, td:last-child {
+    text-align: right;
+  }
+
+  svg {
+    transition: transform var(--transition-fast);
+  }
+  
+  .action-link:hover svg {
+    transform: translate(2px, -2px);
+  }
+  
+  /* Decorative elements */
+  section::after {
+    content: '';
+    position: absolute;
+    bottom: -50px;
+    left: 10%;
+    width: 250px;
+    height: 250px;
+    background: var(--accent-secondary);
+    filter: blur(120px);
+    opacity: 0.15;
+    border-radius: 50%;
+    z-index: -1;
+    pointer-events: none;
+    animation: pulseGlow 8s ease-in-out infinite alternate-reverse;
+  }
+</style>

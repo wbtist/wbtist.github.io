@@ -1,0 +1,56 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AboutSection from '../components/AboutSection.astro';
+import ProjectsTable from '../components/ProjectsTable.astro';
+
+const apps = [
+  {
+    name: '💷 UK Salary Calculator 2026',
+    url: 'https://wbtist.github.io/UK-Salary-Calculator-2026/',
+    actionText: 'Open App',
+  }
+];
+
+const games = [
+  {
+    name: '🎮 Pig-Game',
+    url: 'https://wbtist.github.io/Pig-Game/',
+    actionText: 'Play Game',
+  },
+  {
+    name: '🎮 Hangman',
+    url: 'https://wbtist.github.io/hangman/',
+    actionText: 'Play Game',
+  }
+];
+---
+
+<BaseLayout title="Istvan Toth | Front-End Developer">
+  <main>
+    <AboutSection />
+    
+    <div class="container grids">
+      <ProjectsTable 
+        id="apps" 
+        title="Web Applications & Projects" 
+        projects={apps} 
+      />
+      
+      <ProjectsTable 
+        id="games" 
+        title="JavaScript Games" 
+        projects={games} 
+      />
+    </div>
+  </main>
+</BaseLayout>
+
+<style>
+  .grids {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    position: relative;
+    z-index: 1;
+  }
+</style>

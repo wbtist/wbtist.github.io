@@ -1,0 +1,39 @@
+---
+const currentYear = new Date().getFullYear();
+---
+<footer class="container reveal delay-3">
+  <div class="footer-inner glass-panel">
+    <p>Designed and built with Vanilla CSS & Astro</p>
+    <p>&copy; Istvan Toth | <time id="current-year" datetime={currentYear.toString()}>{currentYear}</time></p>
+  </div>
+</footer>
+
+<style>
+  footer {
+    margin-top: auto;
+    padding: 2rem 1.5rem 4rem;
+  }
+
+  .footer-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 0.5rem;
+    padding: 2rem;
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+  }
+
+  @media (min-width: 768px) {
+    .footer-inner {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+</style>
