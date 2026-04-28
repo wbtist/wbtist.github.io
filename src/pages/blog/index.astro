@@ -1,0 +1,208 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+// Use Astro.glob() to fetch all markdown files in the pages/blog directory
+// except for index.astro itself.
+const posts = await Astro.glob('./*.md');
+
+// Sort posts by date (newest first)
+const sortedPosts = posts.sort((a, b) => {
+  return new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf();
+});
+---
+
+<BaseLayout title="Blog | Istvan Toth">
+  <main class="container grids reveal delay-1">
+    <section class="glass-panel hero-section">
+      <div class="hero-text">
+        <h1><span class="text-gradient">Blog</span></h1>
+        <p class="subtitle">Thoughts, experiments, and learnings.</p>
+      </div>
+      <div class="hero-coffee">
+        <p class="coffee-text">Work requires alertness, coffee helps with that.</p>
+        <div class="qr-wrapper">
+          <img src="/bmc-qr.png" alt="Buy Me a Coffee QR Code" class="coffee-qr" />
+        </div>
+      </div>
+    </section>
+
+    <div class="blog-grid">
+      {sortedPosts.length === 0 ? (
+        <p class="empty-state">No posts yet. Check back later!</p>
+      ) : (
+        sortedPosts.map((post) => (
+          <article class="glass-panel post-card">
+            <a href={post.url} class="post-link">
+              <h2>{post.frontmatter.title}</h2>
+              <div class="post-meta">
+                <span>{new Date(post.frontmatter.pubDate).toLocaleDateString()}</span>
+              </div>
+              <p class="description">{post.frontmatter.description}</p>
+              <span class="read-more">
+                Read article
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path><polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </span>
+            </a>
+          </article>
+        ))
+      )}
+    </div>
+  </main>
+</BaseLayout>
+
+<style>
+  main {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .hero-section {
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .hero-text {
+    flex: 1;
+  }
+
+  .hero-text h1 {
+    margin-bottom: 0.5rem;
+  }
+
+  .hero-text p {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+    margin-top: 1rem;
+  }
+
+  .hero-coffee {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    background: rgba(255, 255, 255, 0.03);
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid var(--glass-border);
+  }
+
+  .coffee-text {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: var(--accent-primary);
+    max-width: 150px;
+    text-align: right;
+    line-height: 1.4;
+  }
+
+  .qr-wrapper {
+    background: white;
+    padding: 0.5rem;
+    border-radius: 8px;
+    display: flex;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .coffee-qr {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+
+  @media (max-width: 768px) {
+    .hero-section {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .hero-coffee {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .coffee-text {
+      text-align: center;
+      max-width: 100%;
+    }
+  }
+
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+
+  .post-card {
+    padding: 0;
+    transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+  }
+
+  .post-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  }
+
+  .post-link {
+    display: block;
+    padding: 2rem;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .post-card h2 {
+    color: var(--text-primary);
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    transition: color var(--transition-fast);
+  }
+
+  .post-card:hover h2 {
+    color: var(--accent-primary);
+  }
+
+  .post-meta {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+  }
+
+  .description {
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    flex-grow: 1;
+  }
+
+  .read-more {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--accent-secondary);
+    font-weight: 500;
+    font-size: 0.95rem;
+  }
+
+  .read-more svg {
+    transition: transform var(--transition-fast);
+  }
+
+  .post-card:hover .read-more svg {
+    transform: translateX(4px);
+  }
+
+  .empty-state {
+    text-align: center;
+    color: var(--text-secondary);
+    padding: 3rem;
+    grid-column: 1 / -1;
+  }
+</style>
