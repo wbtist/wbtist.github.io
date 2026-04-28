@@ -1,8 +1,8 @@
 ---
 layout: ../../layouts/BlogPostLayout.astro
-title: "First Post"
+title: "My Secund Blog Post"
 pubDate: 2026-04-28
-description: "This is a test. If you are reading this, the blog is working."
+description: "Is this visible?"
 author: "Istvan Toth"
 ---
 
@@ -23,15 +23,12 @@ Let's make sure the basic markdown styles look good.
 Here is a blockquote:
 > "Vibe coding is the future of development, where intent matters more than syntax."
 
-And here is some code to test syntax highlighting:
+And here is some code:
 
 ```javascript
-// A simple function to say hello
 function greet(name) {
   return `Hello, ${name}! Welcome to the blog.`;
 }
-
-console.log(greet("Istvan"));
 ```
 
 Stay tuned for more updates!
