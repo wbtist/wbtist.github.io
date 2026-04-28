@@ -1,46 +1,54 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import AboutSection from '../components/AboutSection.astro';
-import ProjectsTable from '../components/ProjectsTable.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
+import AboutSection from "../components/AboutSection.astro";
+import ProjectsTable from "../components/ProjectsTable.astro";
 
 const apps = [
   {
-    name: '💷 UK Salary Calculator 2026',
-    url: 'https://wbtist.github.io/UK-Salary-Calculator-2026/',
-    actionText: 'Open App',
-  }
+    name: "💷 UK Salary Calculator 2026",
+    url: "https://wbtist.github.io/UK-Salary-Calculator-2026/",
+    actionText: "Open App",
+  },
 ];
 
 const games = [
   {
-    name: '🎮 Pig-Game',
-    url: 'https://wbtist.github.io/Pig-Game/',
-    actionText: 'Play Game',
+    name: "🎮 Pig-Game",
+    url: "https://wbtist.github.io/Pig-Game/",
+    actionText: "Play Game",
   },
   {
-    name: '🎮 Hangman',
-    url: 'https://wbtist.github.io/hangman/',
-    actionText: 'Play Game',
-  }
+    name: "🎮 Hangman",
+    url: "https://wbtist.github.io/hangman/",
+    actionText: "Play Game",
+  },
+];
+
+const gems = [
+  {
+    name: "Multilingual Speech-to-Insight Engine",
+    description:
+      "Turn audio in any language into structured English text with a one-click HTML export.",
+    url: "https://gemini.google.com/gem-labs/1ZVb11k0JffNjzZ5Hq99kGmxgK6Gye38P",
+    actionText: "Try it out!",
+  },
 ];
 ---
 
 <BaseLayout title="Istvan Toth | Developer">
   <main>
     <AboutSection />
-    
+
     <div class="container grids">
-      <ProjectsTable 
-        id="apps" 
-        title="Web Applications & Projects" 
-        projects={apps} 
+      <ProjectsTable
+        id="apps"
+        title="Web Applications & Projects"
+        projects={apps}
       />
-      
-      <ProjectsTable 
-        id="games" 
-        title="JavaScript Games" 
-        projects={games} 
-      />
+
+      <ProjectsTable id="games" title="JavaScript Games" projects={games} />
+
+      <ProjectsTable id="gems" title="Gems" projects={gems} />
     </div>
   </main>
 </BaseLayout>
