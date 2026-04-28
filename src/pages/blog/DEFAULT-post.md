@@ -21,5 +21,6 @@ Let's make sure the basic markdown styles look good.
 Here is a blockquote:
 > "Vibe coding is the future of development, where intent matters more than syntax."
 
-Here's an image for testing:
-![Image](/Webicon%20wbtis.png)
+Here's my profile image for testing:
+![Image](/Webicon wbtis.png)
+
