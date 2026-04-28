@@ -20,9 +20,9 @@ const sortedPosts = posts.sort((a, b) => {
       </div>
       <div class="hero-coffee">
         <p class="coffee-text">Work requires alertness, coffee helps with that.</p>
-        <div class="qr-wrapper">
+        <a href="https://www.buymeacoffee.com/invite/istvan.toth" target="_blank" rel="noopener noreferrer" class="qr-wrapper">
           <img src="/Buy%20me%20a%20Coffee%20QR%20bmc_qr.png" alt="Buy Me a Coffee QR Code" class="coffee-qr" />
-        </div>
+        </a>
       </div>
     </section>
 
@@ -108,6 +108,12 @@ const sortedPosts = posts.sort((a, b) => {
     border-radius: 8px;
     display: flex;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+  }
+
+  .qr-wrapper:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
   }
 
   .coffee-qr {
