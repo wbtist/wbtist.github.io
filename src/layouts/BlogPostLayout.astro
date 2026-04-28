@@ -115,6 +115,15 @@ const { frontmatter } = Astro.props;
     text-decoration: underline;
   }
 
+  .post-content :global(img) {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin: 2rem auto;
+    display: block;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+
   .post-footer {
     margin-top: 4rem;
     padding-top: 2rem;

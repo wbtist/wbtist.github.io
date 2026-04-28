@@ -1,0 +1,25 @@
+---
+layout: ../../layouts/BlogPostLayout.astro
+title: "Title here"
+pubDate: 2026-11-11
+description: "Description"
+author: "Istvan Toth"
+---
+
+## Title
+
+Here are a few things I plan to write about:
+
+- **Project deep-dives**: Behind-the-scenes looks at how I built my apps and games.
+- **Vibe-coding**: Tips, tricks, and philosophical thoughts on leveraging AI for coding.
+- **Web Development**: General tutorials and insights on building fast, responsive, mobile-first web applications.
+
+### Subtitle
+
+Let's make sure the basic markdown styles look good.
+
+Here is a blockquote:
+> "Vibe coding is the future of development, where intent matters more than syntax."
+
+Here's an image for testing:
+![Image](/Webicon%20wbtis.png)
