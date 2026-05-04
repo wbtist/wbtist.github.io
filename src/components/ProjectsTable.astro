@@ -81,9 +81,14 @@ const { id, title, projects } = Astro.props;
     scroll-margin-top: 100px;
   }
 
+  table {
+    white-space: normal;
+  }
+
   th,
   td {
     text-align: center;
+    padding: 1.5rem 1rem;
   }
 
   .project-cell {
@@ -93,7 +98,8 @@ const { id, title, projects } = Astro.props;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    width: fit-content;
+    width: 100%;
+    max-width: 800px;
   }
 
   .project-name {
