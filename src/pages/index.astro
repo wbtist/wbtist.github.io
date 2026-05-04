@@ -9,6 +9,15 @@ const apps = [
     url: "https://wbtist.github.io/UK-Salary-Calculator-2026/",
     actionText: "Open App",
   },
+  {
+    name: "Multilingual Speech-to-Insight Engine",
+    description:
+      "Turn audio in any language into structured English text with a one-click HTML export.",
+    url: "https://gemini.google.com/gem-labs/1ZVb11k0JffNjzZ5Hq99kGmxgK6Gye38P",
+    actionText: "Try it out!",
+    description2:
+      "If you not living in US, you'll only be able to use this tool with <a href='/blog/How-to-Access-My-App-with-NordVPN/'>a VPN</a>.",
+  },
 ];
 
 const games = [
@@ -24,17 +33,7 @@ const games = [
   },
 ];
 
-const gems = [
-  {
-    name: "Multilingual Speech-to-Insight Engine",
-    description:
-      "Turn audio in any language into structured English text with a one-click HTML export.",
-    url: "https://gemini.google.com/gem-labs/1ZVb11k0JffNjzZ5Hq99kGmxgK6Gye38P",
-    actionText: "Try it out!",
-    description2:
-      "If you not living in US, you'll only be able to use this tool with <a href='/blog/How-to-Access-My-App-with-NordVPN/'>a VPN</a>.",
-  },
-];
+
 ---
 
 <BaseLayout title="Istvan Toth | Logic Crafter">
@@ -50,7 +49,7 @@ const gems = [
 
       <ProjectsTable id="games" title="JavaScript Games" projects={games} />
 
-      <ProjectsTable id="gems" title="Gems" projects={gems} />
+
     </div>
   </main>
 </BaseLayout>
