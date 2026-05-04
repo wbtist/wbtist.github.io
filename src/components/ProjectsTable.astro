@@ -33,9 +33,7 @@ const { id, title, projects } = Astro.props;
                 <div class="project-cell">
                   <span class="project-name">{project.name}</span>
                   {project.description && (
-                    <span class="project-description">
-                      {project.description}
-                    </span>
+                    <span class="project-description" set:html={project.description} />
                   )}
                   <a
                     href={project.url}
