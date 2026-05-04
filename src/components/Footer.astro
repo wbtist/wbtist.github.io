@@ -1,9 +1,28 @@
 ---
 const currentYear = new Date().getFullYear();
 ---
+
 <footer class="container reveal delay-3">
   <div class="footer-inner glass-panel">
-    <p>&copy; Istvan Toth | <time id="current-year" datetime={currentYear.toString()}>{currentYear}</time></p>
+    <p>
+      &copy; Istvan Toth | <time
+        id="current-year"
+        datetime={currentYear.toString()}>{currentYear}</time>
+    </p>
+    <div class="coffee-section">
+      <span class="coffee-text"
+        >Fueled by logic, crafted with ❤️, powered by coffee.</span
+      >
+      <a
+        href="https://buymeacoffee.com/istvan.toth"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="coffee-button"
+      >
+        <span class="icon">☕</span>
+        Help me stay caffeinated
+      </a>
+    </div>
   </div>
 </footer>
 
@@ -33,6 +52,52 @@ const currentYear = new Date().getFullYear();
     .footer-inner {
       flex-direction: row;
       justify-content: space-between;
+    }
+  }
+
+  .coffee-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .coffee-text {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    opacity: 0.8;
+  }
+
+  .coffee-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.6rem 1.25rem;
+    background: #ffdd00;
+    color: #000000;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: all var(--transition-normal);
+    box-shadow: 0 4px 15px rgba(255, 221, 0, 0.2);
+  }
+
+  .coffee-button:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 8px 25px rgba(255, 221, 0, 0.4);
+    color: #000000;
+    text-shadow: none;
+  }
+
+  .icon {
+    font-size: 1.1rem;
+  }
+
+  @media (min-width: 768px) {
+    .coffee-section {
+      flex-direction: row;
+      gap: 1.5rem;
     }
   }
 </style>
