@@ -1,0 +1,378 @@
+{
+  "nodes": [
+    {
+      "id": "github_workflows_deploy_github_pages_deployment",
+      "label": "GitHub Pages Deployment Workflow",
+      "file_type": "code",
+      "source_file": "D:\\DEV\\Google Antigravity\\wbtist.github.io\\.github\\workflows\\deploy.yml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "github_workflows_deploy_astro_action",
+      "label": "Astro Action Build Step",
+      "file_type": "code",
+      "source_file": "D:\\DEV\\Google Antigravity\\wbtist.github.io\\.github\\workflows\\deploy.yml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "design_fire_and_ice",
+      "label": "Fire & Ice Design System",
+      "file_type": "rationale",
+      "source_file": "D:\\DEV\\Google Antigravity\\wbtist.github.io\\DESIGN.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "design_color_palette",
+      "label": "Dual-Tone Color Palette",
+      "file_type": "concept",
+      "source_file": "D:\\DEV\\Google Antigravity\\wbtist.github.io\\DESIGN.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_repository_overview",
+      "label": "Repository README Overview",
+      "file_type": "document",
+      "source_file": "D:\\DEV\\Google Antigravity\\wbtist.github.io\\README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agents_agents_antigravity_directives",
+      "label": "Antigravity Project Directives",
+      "file_type": "document",
+      "source_file": "D:\\DEV\\Google Antigravity\\wbtist.github.io\\agents\\AGENTS.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agents_agents_three_tier_model",
+      "label": "Three-Tier Static Model",
+      "file_type": "rationale",
+      "source_file": "D:\\DEV\\Google Antigravity\\wbtist.github.io\\agents\\AGENTS.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agents_brand_stylist_brand_stylist_agent",
+      "label": "Brand Stylist Subagent Spec",
+      "file_type": "document",
+      "source_file": "D:\\DEV\\Google Antigravity\\wbtist.github.io\\agents\\brand_stylist.agent.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agents_doc_coauthoring_doc_coauthoring_agent",
+      "label": "Doc Co-authoring Subagent Spec",
+      "file_type": "document",
+      "source_file": "D:\\DEV\\Google Antigravity\\wbtist.github.io\\agents\\doc_coauthoring.agent.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agents_script_optimizer_script_optimizer_agent",
+      "label": "Script Optimizer Subagent Spec",
+      "file_type": "document",
+      "source_file": "D:\\DEV\\Google Antigravity\\wbtist.github.io\\agents\\script_optimizer.agent.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agents_skill_creator_skill_creator_agent",
+      "label": "Skill Creator Subagent Spec",
+      "file_type": "document",
+      "source_file": "D:\\DEV\\Google Antigravity\\wbtist.github.io\\agents\\skill_creator.agent.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agents_webapp_tester_webapp_tester_agent",
+      "label": "Webapp Tester Subagent Spec",
+      "file_type": "document",
+      "source_file": "D:\\DEV\\Google Antigravity\\wbtist.github.io\\agents\\webapp_tester.agent.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "implementation_plan_midnight_sunset",
+      "label": "Midnight Sunset Redesign Plan",
+      "file_type": "rationale",
+      "source_file": "D:\\DEV\\Google Antigravity\\wbtist.github.io\\implementation_plan.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "src_pages_blog_how_to_access_my_app_with_nordvpn_nordvpn_guide",
+      "label": "How to Access My App with NordVPN",
+      "file_type": "document",
+      "source_file": "D:\\DEV\\Google Antigravity\\wbtist.github.io\\src\\pages\\blog\\How-to-Access-My-App-with-NordVPN.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Istvan Toth",
+      "contributor": null
+    },
+    {
+      "id": "src_pages_blog_multilingual_speech_to_insight_engine_speech_engine",
+      "label": "Multilingual Speech-to-Insight Engine",
+      "file_type": "document",
+      "source_file": "D:\\DEV\\Google Antigravity\\wbtist.github.io\\src\\pages\\blog\\Multilingual-Speech-to-Insight-Engine.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Istvan Toth",
+      "contributor": null
+    },
+    {
+      "id": "src_pages_blog_why_revolut_premium_is_a_no_brainer_revolut_guide",
+      "label": "Why Revolut Premium Is A No-Brainer",
+      "file_type": "document",
+      "source_file": "D:\\DEV\\Google Antigravity\\wbtist.github.io\\src\\pages\\blog\\Why-Revolut-Premium-Is-A-No-Brainer.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Istvan Toth",
+      "contributor": null
+    },
+    {
+      "id": "public_buy_me_a_coffee_qr_bmc_qr_image",
+      "label": "Buy Me a Coffee QR Code Image",
+      "file_type": "image",
+      "source_file": "D:\\DEV\\Google Antigravity\\wbtist.github.io\\public\\Buy me a Coffee QR bmc_qr.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_webicon_wbtis_image",
+      "label": "Webicon Avatar wbtis",
+      "file_type": "image",
+      "source_file": "D:\\DEV\\Google Antigravity\\wbtist.github.io\\public\\Webicon wbtis.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_multilingual_speech_to_insight_engine_image1_image",
+      "label": "Multilingual Speech-to-Insight Engine UI Screenshot",
+      "file_type": "image",
+      "source_file": "D:\\DEV\\Google Antigravity\\wbtist.github.io\\public\\multilingual-speech-to-insight-engine-image1.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_profile_image",
+      "label": "Profile Portrait Photo",
+      "file_type": "image",
+      "source_file": "D:\\DEV\\Google Antigravity\\wbtist.github.io\\public\\profile.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "github_workflows_deploy_github_pages_deployment",
+      "target": "github_workflows_deploy_astro_action",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\DEV\\Google Antigravity\\wbtist.github.io\\.github\\workflows\\deploy.yml",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "agents_agents_antigravity_directives",
+      "target": "agents_brand_stylist_brand_stylist_agent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\DEV\\Google Antigravity\\wbtist.github.io\\agents\\AGENTS.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "agents_agents_antigravity_directives",
+      "target": "agents_webapp_tester_webapp_tester_agent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\DEV\\Google Antigravity\\wbtist.github.io\\agents\\AGENTS.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "agents_agents_antigravity_directives",
+      "target": "agents_script_optimizer_script_optimizer_agent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\DEV\\Google Antigravity\\wbtist.github.io\\agents\\AGENTS.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "agents_agents_antigravity_directives",
+      "target": "agents_doc_coauthoring_doc_coauthoring_agent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\DEV\\Google Antigravity\\wbtist.github.io\\agents\\AGENTS.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "agents_script_optimizer_script_optimizer_agent",
+      "target": "github_workflows_deploy_github_pages_deployment",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\DEV\\Google Antigravity\\wbtist.github.io\\agents\\script_optimizer.agent.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "src_pages_blog_how_to_access_my_app_with_nordvpn_nordvpn_guide",
+      "target": "src_pages_blog_why_revolut_premium_is_a_no_brainer_revolut_guide",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\DEV\\Google Antigravity\\wbtist.github.io\\src\\pages\\blog\\How-to-Access-My-App-with-NordVPN.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "src_pages_blog_why_revolut_premium_is_a_no_brainer_revolut_guide",
+      "target": "src_pages_blog_how_to_access_my_app_with_nordvpn_nordvpn_guide",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\DEV\\Google Antigravity\\wbtist.github.io\\src\\pages\\blog\\Why-Revolut-Premium-Is-A-No-Brainer.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "src_pages_blog_multilingual_speech_to_insight_engine_speech_engine",
+      "target": "src_pages_blog_how_to_access_my_app_with_nordvpn_nordvpn_guide",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\DEV\\Google Antigravity\\wbtist.github.io\\src\\pages\\blog\\Multilingual-Speech-to-Insight-Engine.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "implementation_plan_midnight_sunset",
+      "target": "design_fire_and_ice",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "D:\\DEV\\Google Antigravity\\wbtist.github.io\\implementation_plan.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "agents_brand_stylist_brand_stylist_agent",
+      "target": "design_fire_and_ice",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "D:\\DEV\\Google Antigravity\\wbtist.github.io\\agents\\brand_stylist.agent.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_webicon_wbtis_image",
+      "target": "public_profile_image",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "D:\\DEV\\Google Antigravity\\wbtist.github.io\\public\\Webicon wbtis.png",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "agent_subsystem_orchestration",
+      "label": "Antigravity Agent Subsystem Orchestration",
+      "nodes": [
+        "agents_agents_antigravity_directives",
+        "agents_brand_stylist_brand_stylist_agent",
+        "agents_webapp_tester_webapp_tester_agent",
+        "agents_script_optimizer_script_optimizer_agent",
+        "agents_doc_coauthoring_doc_coauthoring_agent"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\DEV\\Google Antigravity\\wbtist.github.io\\agents\\AGENTS.md"
+    },
+    {
+      "id": "blog_cross_referencing_ecosystem",
+      "label": "VPN & Financial Utility Blog Ecosystem",
+      "nodes": [
+        "src_pages_blog_how_to_access_my_app_with_nordvpn_nordvpn_guide",
+        "src_pages_blog_why_revolut_premium_is_a_no_brainer_revolut_guide",
+        "src_pages_blog_multilingual_speech_to_insight_engine_speech_engine"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\DEV\\Google Antigravity\\wbtist.github.io\\src\\pages\\blog\\How-to-Access-My-App-with-NordVPN.md"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

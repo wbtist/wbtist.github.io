@@ -1,0 +1,142 @@
+{
+  "astro.config.mjs": {
+    "mtime": 1774120586.1926587,
+    "ast_hash": "51fd653e5247b4d17737985499097dad",
+    "semantic_hash": "51fd653e5247b4d17737985499097dad"
+  },
+  "package.json": {
+    "mtime": 1774118199.2197635,
+    "ast_hash": "aada11bc63a1f346cc85497c940e8768",
+    "semantic_hash": "aada11bc63a1f346cc85497c940e8768"
+  },
+  "src/components/AboutSection.astro": {
+    "mtime": 1777401808.4956973,
+    "ast_hash": "8300149412be9713b83d969a96b72587",
+    "semantic_hash": "8300149412be9713b83d969a96b72587"
+  },
+  "src/components/Footer.astro": {
+    "mtime": 1777928862.7825494,
+    "ast_hash": "991b739b0bf930b4349616eccaeeeeff",
+    "semantic_hash": "991b739b0bf930b4349616eccaeeeeff"
+  },
+  "src/components/Header.astro": {
+    "mtime": 1777929316.564777,
+    "ast_hash": "55f8f835e5613e703609b218c5fb47f0",
+    "semantic_hash": "55f8f835e5613e703609b218c5fb47f0"
+  },
+  "src/components/ProjectsTable.astro": {
+    "mtime": 1777933687.8901887,
+    "ast_hash": "49d332f86ee8f21c3fc7b4b16e8be136",
+    "semantic_hash": "49d332f86ee8f21c3fc7b4b16e8be136"
+  },
+  "src/env.d.ts": {
+    "mtime": 1774120682.4243848,
+    "ast_hash": "a34c63603f2fc704c29af63d4a960109",
+    "semantic_hash": "a34c63603f2fc704c29af63d4a960109"
+  },
+  "src/layouts/BaseLayout.astro": {
+    "mtime": 1777412752.9880865,
+    "ast_hash": "ac82deb3f71dc9650ba2405e072a11bf",
+    "semantic_hash": "ac82deb3f71dc9650ba2405e072a11bf"
+  },
+  "src/layouts/BlogPostLayout.astro": {
+    "mtime": 1777410768.2218275,
+    "ast_hash": "f4340c4c0b295705ed9f9686fcd5718c",
+    "semantic_hash": "f4340c4c0b295705ed9f9686fcd5718c"
+  },
+  "src/pages/blog/index.astro": {
+    "mtime": 1777920095.4198327,
+    "ast_hash": "9927f2552b17b2916cf02ff42feef922",
+    "semantic_hash": "9927f2552b17b2916cf02ff42feef922"
+  },
+  "src/pages/index.astro": {
+    "mtime": 1777933554.0894513,
+    "ast_hash": "3fd515927595713a49fa964302c95c0d",
+    "semantic_hash": "3fd515927595713a49fa964302c95c0d"
+  },
+  ".github/workflows/deploy.yml": {
+    "mtime": 1774214846.0980628,
+    "ast_hash": "16eff930d7205268ce34b6e16c9f31a4",
+    "semantic_hash": "16eff930d7205268ce34b6e16c9f31a4"
+  },
+  "DESIGN.md": {
+    "mtime": 1774214070.360875,
+    "ast_hash": "ea14148127509792d3cb87fb27674d82",
+    "semantic_hash": "ea14148127509792d3cb87fb27674d82"
+  },
+  "README.md": {
+    "mtime": 1774116530.5890548,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "agents/AGENTS.md": {
+    "mtime": 1774120619.5018733,
+    "ast_hash": "3c0e7b85a2b493ac2bb82304a4920f3f",
+    "semantic_hash": "3c0e7b85a2b493ac2bb82304a4920f3f"
+  },
+  "agents/brand_stylist.agent.md": {
+    "mtime": 1774082412.767202,
+    "ast_hash": "ca927c0e48264c1a7c22d53e858d6a71",
+    "semantic_hash": "ca927c0e48264c1a7c22d53e858d6a71"
+  },
+  "agents/doc_coauthoring.agent.md": {
+    "mtime": 1774090207.3094573,
+    "ast_hash": "e4e3e4f9606b779ef0ba25e4184e678a",
+    "semantic_hash": "e4e3e4f9606b779ef0ba25e4184e678a"
+  },
+  "agents/script_optimizer.agent.md": {
+    "mtime": 1774094248.772167,
+    "ast_hash": "67f636feb902d556e2f3baa124dce745",
+    "semantic_hash": "67f636feb902d556e2f3baa124dce745"
+  },
+  "agents/skill_creator.agent.md": {
+    "mtime": 1774094248.772167,
+    "ast_hash": "a1824ea42d1c0f6a9fa169347304cfbf",
+    "semantic_hash": "a1824ea42d1c0f6a9fa169347304cfbf"
+  },
+  "agents/webapp_tester.agent.md": {
+    "mtime": 1774095102.3846447,
+    "ast_hash": "fc24b8ab9e7c1b8d27a80721fd941c6b",
+    "semantic_hash": "fc24b8ab9e7c1b8d27a80721fd941c6b"
+  },
+  "implementation_plan.md": {
+    "mtime": 1774213099.0167055,
+    "ast_hash": "3641b17eee7a7f4c11309536c7f42e30",
+    "semantic_hash": "3641b17eee7a7f4c11309536c7f42e30"
+  },
+  "src/pages/blog/How-to-Access-My-App-with-NordVPN.md": {
+    "mtime": 1777927466.7948916,
+    "ast_hash": "24c4f3ef4e827664aecc588abcd22bf1",
+    "semantic_hash": "24c4f3ef4e827664aecc588abcd22bf1"
+  },
+  "src/pages/blog/Multilingual-Speech-to-Insight-Engine.md": {
+    "mtime": 1777933179.681718,
+    "ast_hash": "b8449fdd44c0f89243c58d56df8d30ca",
+    "semantic_hash": "b8449fdd44c0f89243c58d56df8d30ca"
+  },
+  "src/pages/blog/Why-Revolut-Premium-Is-A-No-Brainer.md": {
+    "mtime": 1777927767.6430752,
+    "ast_hash": "fe8e98a83c302f9c5a6ab9102d27ae9f",
+    "semantic_hash": "fe8e98a83c302f9c5a6ab9102d27ae9f"
+  },
+  "public/Buy me a Coffee QR bmc_qr.png": {
+    "mtime": 1777405016.642,
+    "ast_hash": "e7c75d36c277ddabff055dc6f5e2f4f6",
+    "semantic_hash": "e7c75d36c277ddabff055dc6f5e2f4f6"
+  },
+  "public/Webicon wbtis.png": {
+    "mtime": 1774311337.3837984,
+    "ast_hash": "68685a4b82ac93354d5fe5c5d39f5b59",
+    "semantic_hash": "68685a4b82ac93354d5fe5c5d39f5b59"
+  },
+  "public/multilingual-speech-to-insight-engine-image1.png": {
+    "mtime": 1777930523.5423608,
+    "ast_hash": "6d0f57d90adf596345b033d6c326f5c4",
+    "semantic_hash": "6d0f57d90adf596345b033d6c326f5c4"
+  },
+  "public/profile.png": {
+    "mtime": 1774124532.6348274,
+    "ast_hash": "5887d281837a77eaea118c0e5d050960",
+    "semantic_hash": "5887d281837a77eaea118c0e5d050960"
+  }
+}
