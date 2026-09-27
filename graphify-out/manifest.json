@@ -15,9 +15,9 @@
     "semantic_hash": "8300149412be9713b83d969a96b72587"
   },
   "src/components/Footer.astro": {
-    "mtime": 1777928862.7825494,
-    "ast_hash": "991b739b0bf930b4349616eccaeeeeff",
-    "semantic_hash": "991b739b0bf930b4349616eccaeeeeff"
+    "mtime": 1790467274.6318183,
+    "ast_hash": "600000de840237908117dce11463e40c",
+    "semantic_hash": ""
   },
   "src/components/Header.astro": {
     "mtime": 1777929316.564777,
@@ -138,5 +138,15 @@
     "mtime": 1774124532.6348274,
     "ast_hash": "5887d281837a77eaea118c0e5d050960",
     "semantic_hash": "5887d281837a77eaea118c0e5d050960"
+  },
+  ".agents/rules/graphify.md": {
+    "mtime": 1790405251.4433627,
+    "ast_hash": "a0e4d192b9e2e17256124dbfc8e24e6a",
+    "semantic_hash": ""
+  },
+  ".agents/workflows/graphify.md": {
+    "mtime": 1790405251.4450526,
+    "ast_hash": "a831cf3669f1e6ab85d8a80ebe655f99",
+    "semantic_hash": ""
   }
 }

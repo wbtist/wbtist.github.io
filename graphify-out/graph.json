@@ -42,6 +42,7 @@
       "_origin": "ast",
       "id": "astro_config",
       "community": 9,
+      "community_name": "Astro Configuration",
       "norm_label": "astro.config.mjs"
     },
     {
@@ -52,6 +53,7 @@
       "_origin": "ast",
       "id": "package",
       "community": 1,
+      "community_name": "Project Manifest Dependencies",
       "norm_label": "package.json"
     },
     {
@@ -62,6 +64,7 @@
       "_origin": "ast",
       "id": "package_name",
       "community": 1,
+      "community_name": "Project Manifest Dependencies",
       "norm_label": "name"
     },
     {
@@ -72,6 +75,7 @@
       "_origin": "ast",
       "id": "package_version",
       "community": 1,
+      "community_name": "Project Manifest Dependencies",
       "norm_label": "version"
     },
     {
@@ -82,6 +86,7 @@
       "_origin": "ast",
       "id": "package_private",
       "community": 1,
+      "community_name": "Project Manifest Dependencies",
       "norm_label": "private"
     },
     {
@@ -92,6 +97,7 @@
       "_origin": "ast",
       "id": "package_scripts",
       "community": 3,
+      "community_name": "NPM Build Scripts",
       "norm_label": "scripts"
     },
     {
@@ -102,6 +108,7 @@
       "_origin": "ast",
       "id": "package_scripts_dev",
       "community": 3,
+      "community_name": "NPM Build Scripts",
       "norm_label": "dev"
     },
     {
@@ -112,6 +119,7 @@
       "_origin": "ast",
       "id": "package_scripts_start",
       "community": 3,
+      "community_name": "NPM Build Scripts",
       "norm_label": "start"
     },
     {
@@ -122,6 +130,7 @@
       "_origin": "ast",
       "id": "package_scripts_build",
       "community": 3,
+      "community_name": "NPM Build Scripts",
       "norm_label": "build"
     },
     {
@@ -132,6 +141,7 @@
       "_origin": "ast",
       "id": "package_scripts_preview",
       "community": 3,
+      "community_name": "NPM Build Scripts",
       "norm_label": "preview"
     },
     {
@@ -142,6 +152,7 @@
       "_origin": "ast",
       "id": "package_scripts_astro",
       "community": 3,
+      "community_name": "NPM Build Scripts",
       "norm_label": "astro"
     },
     {
@@ -152,6 +163,7 @@
       "_origin": "ast",
       "id": "package_dependencies",
       "community": 1,
+      "community_name": "Project Manifest Dependencies",
       "norm_label": "dependencies"
     },
     {
@@ -162,6 +174,7 @@
       "_origin": "ast",
       "id": "package_dependencies_astro",
       "community": 1,
+      "community_name": "Project Manifest Dependencies",
       "norm_label": "astro"
     },
     {
@@ -172,6 +185,7 @@
       "_origin": "ast",
       "id": "astro",
       "community": 1,
+      "community_name": "Project Manifest Dependencies",
       "norm_label": "astro"
     },
     {
@@ -183,6 +197,7 @@
       "confidence": "EXTRACTED",
       "id": "src_components_aboutsection",
       "community": 4,
+      "community_name": "Homepage Components",
       "norm_label": "../components/aboutsection.astro"
     },
     {
@@ -194,6 +209,7 @@
       "confidence": "EXTRACTED",
       "id": "src_components_footer",
       "community": 2,
+      "community_name": "Layouts & Blog Templates",
       "norm_label": "../components/footer.astro"
     },
     {
@@ -205,6 +221,7 @@
       "confidence": "EXTRACTED",
       "id": "src_components_header",
       "community": 2,
+      "community_name": "Layouts & Blog Templates",
       "norm_label": "../components/header.astro"
     },
     {
@@ -216,6 +233,7 @@
       "confidence": "EXTRACTED",
       "id": "src_components_projectstable",
       "community": 4,
+      "community_name": "Homepage Components",
       "norm_label": "../components/projectstable.astro"
     },
     {
@@ -226,6 +244,7 @@
       "_origin": "ast",
       "id": "src_env_d",
       "community": 14,
+      "community_name": "TypeScript Environment",
       "norm_label": "env.d.ts"
     },
     {
@@ -237,6 +256,7 @@
       "confidence": "EXTRACTED",
       "id": "src_layouts_baselayout",
       "community": 2,
+      "community_name": "Layouts & Blog Templates",
       "norm_label": "../layouts/baselayout.astro"
     },
     {
@@ -247,6 +267,7 @@
       "_origin": "ast",
       "id": "d_dev_google_antigravity_wbtist_github_io_src_styles_global_css",
       "community": 2,
+      "community_name": "Layouts & Blog Templates",
       "norm_label": "../styles/global.css"
     },
     {
@@ -257,6 +278,7 @@
       "_origin": "ast",
       "id": "src_layouts_blogpostlayout",
       "community": 2,
+      "community_name": "Layouts & Blog Templates",
       "norm_label": "blogpostlayout.astro"
     },
     {
@@ -267,6 +289,7 @@
       "_origin": "ast",
       "id": "src_pages_blog_index",
       "community": 2,
+      "community_name": "Layouts & Blog Templates",
       "norm_label": "blog/index.astro"
     },
     {
@@ -277,6 +300,7 @@
       "_origin": "ast",
       "id": "src_pages_blog_index_sortedposts",
       "community": 2,
+      "community_name": "Layouts & Blog Templates",
       "norm_label": "sortedposts"
     },
     {
@@ -287,6 +311,7 @@
       "_origin": "ast",
       "id": "src_pages_index",
       "community": 4,
+      "community_name": "Homepage Components",
       "norm_label": "pages/index.astro"
     },
     {
@@ -297,6 +322,7 @@
       "_origin": "ast",
       "id": "src_pages_index_apps",
       "community": 4,
+      "community_name": "Homepage Components",
       "norm_label": "apps"
     },
     {
@@ -307,7 +333,52 @@
       "_origin": "ast",
       "id": "src_pages_index_games",
       "community": 4,
+      "community_name": "Homepage Components",
       "norm_label": "games"
+    },
+    {
+      "label": "rules/graphify.md",
+      "file_type": "document",
+      "source_file": ".agents/rules/graphify.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_rules_graphify",
+      "community": 15,
+      "community_name": "rules/graphify.md",
+      "norm_label": "rules/graphify.md"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": ".agents/rules/graphify.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "agents_rules_graphify_graphify",
+      "community": 15,
+      "community_name": "rules/graphify.md",
+      "norm_label": "graphify"
+    },
+    {
+      "label": "workflows/graphify.md",
+      "file_type": "document",
+      "source_file": ".agents/workflows/graphify.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_workflows_graphify",
+      "community": 16,
+      "community_name": "workflows/graphify.md",
+      "norm_label": "workflows/graphify.md"
+    },
+    {
+      "label": "Workflow: graphify",
+      "file_type": "document",
+      "source_file": ".agents/workflows/graphify.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "agents_workflows_graphify_workflow_graphify",
+      "community": 16,
+      "community_name": "workflows/graphify.md",
+      "norm_label": "workflow: graphify"
     },
     {
       "label": "GitHub Pages Deployment Workflow",
@@ -318,9 +389,10 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "github_workflows_deploy_github_pages_deployment",
       "community": 0,
-      "norm_label": "github pages deployment workflow"
+      "norm_label": "github pages deployment workflow",
+      "id": "github_workflows_deploy_github_pages_deployment",
+      "community_name": "Agent & CI/CD Workflows"
     },
     {
       "label": "Astro Action Build Step",
@@ -331,9 +403,10 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "github_workflows_deploy_astro_action",
       "community": 0,
-      "norm_label": "astro action build step"
+      "norm_label": "astro action build step",
+      "id": "github_workflows_deploy_astro_action",
+      "community_name": "Agent & CI/CD Workflows"
     },
     {
       "label": "Fire & Ice Design System",
@@ -344,9 +417,10 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "design_fire_and_ice",
       "community": 0,
-      "norm_label": "fire & ice design system"
+      "norm_label": "fire & ice design system",
+      "id": "design_fire_and_ice",
+      "community_name": "Agent & CI/CD Workflows"
     },
     {
       "label": "Dual-Tone Color Palette",
@@ -357,9 +431,10 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "design_color_palette",
       "community": 10,
-      "norm_label": "dual-tone color palette"
+      "norm_label": "dual-tone color palette",
+      "id": "design_color_palette",
+      "community_name": "Brand Color Palette"
     },
     {
       "label": "Repository README Overview",
@@ -370,9 +445,10 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_repository_overview",
       "community": 13,
-      "norm_label": "repository readme overview"
+      "norm_label": "repository readme overview",
+      "id": "readme_repository_overview",
+      "community_name": "Repository Overview Docs"
     },
     {
       "label": "Antigravity Project Directives",
@@ -383,9 +459,10 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agents_agents_antigravity_directives",
       "community": 0,
-      "norm_label": "antigravity project directives"
+      "norm_label": "antigravity project directives",
+      "id": "agents_agents_antigravity_directives",
+      "community_name": "Agent & CI/CD Workflows"
     },
     {
       "label": "Three-Tier Static Model",
@@ -396,9 +473,10 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agents_agents_three_tier_model",
       "community": 7,
-      "norm_label": "three-tier static model"
+      "norm_label": "three-tier static model",
+      "id": "agents_agents_three_tier_model",
+      "community_name": "Architecture Models"
     },
     {
       "label": "Brand Stylist Subagent Spec",
@@ -409,9 +487,10 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agents_brand_stylist_brand_stylist_agent",
       "community": 0,
-      "norm_label": "brand stylist subagent spec"
+      "norm_label": "brand stylist subagent spec",
+      "id": "agents_brand_stylist_brand_stylist_agent",
+      "community_name": "Agent & CI/CD Workflows"
     },
     {
       "label": "Doc Co-authoring Subagent Spec",
@@ -422,9 +501,10 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agents_doc_coauthoring_doc_coauthoring_agent",
       "community": 0,
-      "norm_label": "doc co-authoring subagent spec"
+      "norm_label": "doc co-authoring subagent spec",
+      "id": "agents_doc_coauthoring_doc_coauthoring_agent",
+      "community_name": "Agent & CI/CD Workflows"
     },
     {
       "label": "Script Optimizer Subagent Spec",
@@ -435,9 +515,10 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agents_script_optimizer_script_optimizer_agent",
       "community": 0,
-      "norm_label": "script optimizer subagent spec"
+      "norm_label": "script optimizer subagent spec",
+      "id": "agents_script_optimizer_script_optimizer_agent",
+      "community_name": "Agent & CI/CD Workflows"
     },
     {
       "label": "Skill Creator Subagent Spec",
@@ -448,9 +529,10 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agents_skill_creator_skill_creator_agent",
       "community": 8,
-      "norm_label": "skill creator subagent spec"
+      "norm_label": "skill creator subagent spec",
+      "id": "agents_skill_creator_skill_creator_agent",
+      "community_name": "Skill Creator Agent"
     },
     {
       "label": "Webapp Tester Subagent Spec",
@@ -461,9 +543,10 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agents_webapp_tester_webapp_tester_agent",
       "community": 0,
-      "norm_label": "webapp tester subagent spec"
+      "norm_label": "webapp tester subagent spec",
+      "id": "agents_webapp_tester_webapp_tester_agent",
+      "community_name": "Agent & CI/CD Workflows"
     },
     {
       "label": "Midnight Sunset Redesign Plan",
@@ -474,9 +557,10 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "implementation_plan_midnight_sunset",
       "community": 0,
-      "norm_label": "midnight sunset redesign plan"
+      "norm_label": "midnight sunset redesign plan",
+      "id": "implementation_plan_midnight_sunset",
+      "community_name": "Agent & CI/CD Workflows"
     },
     {
       "label": "How to Access My App with NordVPN",
@@ -487,9 +571,10 @@
       "captured_at": null,
       "author": "Istvan Toth",
       "contributor": null,
-      "id": "src_pages_blog_how_to_access_my_app_with_nordvpn_nordvpn_guide",
       "community": 5,
-      "norm_label": "how to access my app with nordvpn"
+      "norm_label": "how to access my app with nordvpn",
+      "id": "src_pages_blog_how_to_access_my_app_with_nordvpn_nordvpn_guide",
+      "community_name": "Blog Articles"
     },
     {
       "label": "Multilingual Speech-to-Insight Engine",
@@ -500,9 +585,10 @@
       "captured_at": null,
       "author": "Istvan Toth",
       "contributor": null,
-      "id": "src_pages_blog_multilingual_speech_to_insight_engine_speech_engine",
       "community": 5,
-      "norm_label": "multilingual speech-to-insight engine"
+      "norm_label": "multilingual speech-to-insight engine",
+      "id": "src_pages_blog_multilingual_speech_to_insight_engine_speech_engine",
+      "community_name": "Blog Articles"
     },
     {
       "label": "Why Revolut Premium Is A No-Brainer",
@@ -513,9 +599,10 @@
       "captured_at": null,
       "author": "Istvan Toth",
       "contributor": null,
-      "id": "src_pages_blog_why_revolut_premium_is_a_no_brainer_revolut_guide",
       "community": 5,
-      "norm_label": "why revolut premium is a no-brainer"
+      "norm_label": "why revolut premium is a no-brainer",
+      "id": "src_pages_blog_why_revolut_premium_is_a_no_brainer_revolut_guide",
+      "community_name": "Blog Articles"
     },
     {
       "label": "Buy Me a Coffee QR Code Image",
@@ -526,9 +613,10 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "public_buy_me_a_coffee_qr_bmc_qr_image",
       "community": 11,
-      "norm_label": "buy me a coffee qr code image"
+      "norm_label": "buy me a coffee qr code image",
+      "id": "public_buy_me_a_coffee_qr_bmc_qr_image",
+      "community_name": "Donation Media"
     },
     {
       "label": "Webicon Avatar wbtis",
@@ -539,9 +627,10 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "public_webicon_wbtis_image",
       "community": 6,
-      "norm_label": "webicon avatar wbtis"
+      "norm_label": "webicon avatar wbtis",
+      "id": "public_webicon_wbtis_image",
+      "community_name": "Profile & Avatar Media"
     },
     {
       "label": "Multilingual Speech-to-Insight Engine UI Screenshot",
@@ -552,9 +641,10 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "public_multilingual_speech_to_insight_engine_image1_image",
       "community": 12,
-      "norm_label": "multilingual speech-to-insight engine ui screenshot"
+      "norm_label": "multilingual speech-to-insight engine ui screenshot",
+      "id": "public_multilingual_speech_to_insight_engine_image1_image",
+      "community_name": "Insight Engine UI Media"
     },
     {
       "label": "Profile Portrait Photo",
@@ -565,9 +655,10 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "public_profile_image",
       "community": 6,
-      "norm_label": "profile portrait photo"
+      "norm_label": "profile portrait photo",
+      "id": "public_profile_image",
+      "community_name": "Profile & Avatar Media"
     }
   ],
   "links": [
@@ -822,6 +913,28 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/graphify.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "agents_rules_graphify",
+      "target": "agents_rules_graphify_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/workflows/graphify.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "agents_workflows_graphify",
+      "target": "agents_workflows_graphify_workflow_graphify",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -962,5 +1075,5 @@
       "source_file": "src/pages/blog/How-to-Access-My-App-with-NordVPN.md"
     }
   ],
-  "built_at_commit": "2a7df7eef210fe6db38e9262d1ef591cb8da7466"
+  "built_at_commit": "1cf906632bae2c667455a60f16618f8b34d43ab7"
 }
