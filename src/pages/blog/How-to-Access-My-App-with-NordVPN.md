@@ -27,15 +27,3 @@ It’s great because it keeps the connection steady, which is exactly what you n
 If you want to grab the same one I use, you can use my referral link here:
 
 [**NordVPN Referral Link**](https://refer-nordvpn.com/JjbZjuaXkYq)
-
----
-
-### A great tip on the price
-
-I know NordVPN might look pricey at first glance, but the good thing is that the whole family can use it on their own devices.
-
-Plus, there is a clever little trick I use to make it almost free. It takes a couple of minutes to set up, but it's well worth it!
-
-I’ve written all about how to do that in this post:
-
-> [How to get your VPN for next to nothing](/blog/Why-Revolut-Premium-Is-A-No-Brainer/)

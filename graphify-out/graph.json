@@ -17,19 +17,6 @@
         "confidence": "EXTRACTED",
         "confidence_score": 1.0,
         "source_file": "agents/AGENTS.md"
-      },
-      {
-        "id": "blog_cross_referencing_ecosystem",
-        "label": "VPN & Financial Utility Blog Ecosystem",
-        "nodes": [
-          "src_pages_blog_how_to_access_my_app_with_nordvpn_nordvpn_guide",
-          "src_pages_blog_why_revolut_premium_is_a_no_brainer_revolut_guide",
-          "src_pages_blog_multilingual_speech_to_insight_engine_speech_engine"
-        ],
-        "relation": "participate_in",
-        "confidence": "EXTRACTED",
-        "confidence_score": 1.0,
-        "source_file": "src/pages/blog/How-to-Access-My-App-with-NordVPN.md"
       }
     ]
   },
@@ -391,8 +378,8 @@
       "contributor": null,
       "community": 0,
       "norm_label": "github pages deployment workflow",
-      "id": "github_workflows_deploy_github_pages_deployment",
-      "community_name": "Agent & CI/CD Workflows"
+      "community_name": "Agent & CI/CD Workflows",
+      "id": "github_workflows_deploy_github_pages_deployment"
     },
     {
       "label": "Astro Action Build Step",
@@ -405,8 +392,8 @@
       "contributor": null,
       "community": 0,
       "norm_label": "astro action build step",
-      "id": "github_workflows_deploy_astro_action",
-      "community_name": "Agent & CI/CD Workflows"
+      "community_name": "Agent & CI/CD Workflows",
+      "id": "github_workflows_deploy_astro_action"
     },
     {
       "label": "Fire & Ice Design System",
@@ -419,8 +406,8 @@
       "contributor": null,
       "community": 0,
       "norm_label": "fire & ice design system",
-      "id": "design_fire_and_ice",
-      "community_name": "Agent & CI/CD Workflows"
+      "community_name": "Agent & CI/CD Workflows",
+      "id": "design_fire_and_ice"
     },
     {
       "label": "Dual-Tone Color Palette",
@@ -433,8 +420,8 @@
       "contributor": null,
       "community": 10,
       "norm_label": "dual-tone color palette",
-      "id": "design_color_palette",
-      "community_name": "Brand Color Palette"
+      "community_name": "Brand Color Palette",
+      "id": "design_color_palette"
     },
     {
       "label": "Repository README Overview",
@@ -447,8 +434,8 @@
       "contributor": null,
       "community": 13,
       "norm_label": "repository readme overview",
-      "id": "readme_repository_overview",
-      "community_name": "Repository Overview Docs"
+      "community_name": "Repository Overview Docs",
+      "id": "readme_repository_overview"
     },
     {
       "label": "Antigravity Project Directives",
@@ -461,8 +448,8 @@
       "contributor": null,
       "community": 0,
       "norm_label": "antigravity project directives",
-      "id": "agents_agents_antigravity_directives",
-      "community_name": "Agent & CI/CD Workflows"
+      "community_name": "Agent & CI/CD Workflows",
+      "id": "agents_agents_antigravity_directives"
     },
     {
       "label": "Three-Tier Static Model",
@@ -475,8 +462,8 @@
       "contributor": null,
       "community": 7,
       "norm_label": "three-tier static model",
-      "id": "agents_agents_three_tier_model",
-      "community_name": "Architecture Models"
+      "community_name": "Architecture Models",
+      "id": "agents_agents_three_tier_model"
     },
     {
       "label": "Brand Stylist Subagent Spec",
@@ -489,8 +476,8 @@
       "contributor": null,
       "community": 0,
       "norm_label": "brand stylist subagent spec",
-      "id": "agents_brand_stylist_brand_stylist_agent",
-      "community_name": "Agent & CI/CD Workflows"
+      "community_name": "Agent & CI/CD Workflows",
+      "id": "agents_brand_stylist_brand_stylist_agent"
     },
     {
       "label": "Doc Co-authoring Subagent Spec",
@@ -503,8 +490,8 @@
       "contributor": null,
       "community": 0,
       "norm_label": "doc co-authoring subagent spec",
-      "id": "agents_doc_coauthoring_doc_coauthoring_agent",
-      "community_name": "Agent & CI/CD Workflows"
+      "community_name": "Agent & CI/CD Workflows",
+      "id": "agents_doc_coauthoring_doc_coauthoring_agent"
     },
     {
       "label": "Script Optimizer Subagent Spec",
@@ -517,8 +504,8 @@
       "contributor": null,
       "community": 0,
       "norm_label": "script optimizer subagent spec",
-      "id": "agents_script_optimizer_script_optimizer_agent",
-      "community_name": "Agent & CI/CD Workflows"
+      "community_name": "Agent & CI/CD Workflows",
+      "id": "agents_script_optimizer_script_optimizer_agent"
     },
     {
       "label": "Skill Creator Subagent Spec",
@@ -531,8 +518,8 @@
       "contributor": null,
       "community": 8,
       "norm_label": "skill creator subagent spec",
-      "id": "agents_skill_creator_skill_creator_agent",
-      "community_name": "Skill Creator Agent"
+      "community_name": "Skill Creator Agent",
+      "id": "agents_skill_creator_skill_creator_agent"
     },
     {
       "label": "Webapp Tester Subagent Spec",
@@ -545,8 +532,8 @@
       "contributor": null,
       "community": 0,
       "norm_label": "webapp tester subagent spec",
-      "id": "agents_webapp_tester_webapp_tester_agent",
-      "community_name": "Agent & CI/CD Workflows"
+      "community_name": "Agent & CI/CD Workflows",
+      "id": "agents_webapp_tester_webapp_tester_agent"
     },
     {
       "label": "Midnight Sunset Redesign Plan",
@@ -559,8 +546,8 @@
       "contributor": null,
       "community": 0,
       "norm_label": "midnight sunset redesign plan",
-      "id": "implementation_plan_midnight_sunset",
-      "community_name": "Agent & CI/CD Workflows"
+      "community_name": "Agent & CI/CD Workflows",
+      "id": "implementation_plan_midnight_sunset"
     },
     {
       "label": "How to Access My App with NordVPN",
@@ -573,8 +560,8 @@
       "contributor": null,
       "community": 5,
       "norm_label": "how to access my app with nordvpn",
-      "id": "src_pages_blog_how_to_access_my_app_with_nordvpn_nordvpn_guide",
-      "community_name": "Blog Articles"
+      "community_name": "Blog Articles",
+      "id": "src_pages_blog_how_to_access_my_app_with_nordvpn_nordvpn_guide"
     },
     {
       "label": "Multilingual Speech-to-Insight Engine",
@@ -587,22 +574,8 @@
       "contributor": null,
       "community": 5,
       "norm_label": "multilingual speech-to-insight engine",
-      "id": "src_pages_blog_multilingual_speech_to_insight_engine_speech_engine",
-      "community_name": "Blog Articles"
-    },
-    {
-      "label": "Why Revolut Premium Is A No-Brainer",
-      "file_type": "document",
-      "source_file": "src/pages/blog/Why-Revolut-Premium-Is-A-No-Brainer.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": "Istvan Toth",
-      "contributor": null,
-      "community": 5,
-      "norm_label": "why revolut premium is a no-brainer",
-      "id": "src_pages_blog_why_revolut_premium_is_a_no_brainer_revolut_guide",
-      "community_name": "Blog Articles"
+      "community_name": "Blog Articles",
+      "id": "src_pages_blog_multilingual_speech_to_insight_engine_speech_engine"
     },
     {
       "label": "Buy Me a Coffee QR Code Image",
@@ -615,8 +588,8 @@
       "contributor": null,
       "community": 11,
       "norm_label": "buy me a coffee qr code image",
-      "id": "public_buy_me_a_coffee_qr_bmc_qr_image",
-      "community_name": "Donation Media"
+      "community_name": "Donation Media",
+      "id": "public_buy_me_a_coffee_qr_bmc_qr_image"
     },
     {
       "label": "Webicon Avatar wbtis",
@@ -629,8 +602,8 @@
       "contributor": null,
       "community": 6,
       "norm_label": "webicon avatar wbtis",
-      "id": "public_webicon_wbtis_image",
-      "community_name": "Profile & Avatar Media"
+      "community_name": "Profile & Avatar Media",
+      "id": "public_webicon_wbtis_image"
     },
     {
       "label": "Multilingual Speech-to-Insight Engine UI Screenshot",
@@ -643,8 +616,8 @@
       "contributor": null,
       "community": 12,
       "norm_label": "multilingual speech-to-insight engine ui screenshot",
-      "id": "public_multilingual_speech_to_insight_engine_image1_image",
-      "community_name": "Insight Engine UI Media"
+      "community_name": "Insight Engine UI Media",
+      "id": "public_multilingual_speech_to_insight_engine_image1_image"
     },
     {
       "label": "Profile Portrait Photo",
@@ -657,8 +630,8 @@
       "contributor": null,
       "community": 6,
       "norm_label": "profile portrait photo",
-      "id": "public_profile_image",
-      "community_name": "Profile & Avatar Media"
+      "community_name": "Profile & Avatar Media",
+      "id": "public_profile_image"
     }
   ],
   "links": [
@@ -1018,16 +991,6 @@
       "relation": "cites",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "src/pages/blog/How-to-Access-My-App-with-NordVPN.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "src_pages_blog_how_to_access_my_app_with_nordvpn_nordvpn_guide",
-      "target": "src_pages_blog_why_revolut_premium_is_a_no_brainer_revolut_guide"
-    },
-    {
-      "relation": "cites",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "src/pages/blog/Multilingual-Speech-to-Insight-Engine.md",
       "source_location": null,
       "weight": 1.0,
@@ -1060,20 +1023,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "agents/AGENTS.md"
-    },
-    {
-      "id": "blog_cross_referencing_ecosystem",
-      "label": "VPN & Financial Utility Blog Ecosystem",
-      "nodes": [
-        "src_pages_blog_how_to_access_my_app_with_nordvpn_nordvpn_guide",
-        "src_pages_blog_why_revolut_premium_is_a_no_brainer_revolut_guide",
-        "src_pages_blog_multilingual_speech_to_insight_engine_speech_engine"
-      ],
-      "relation": "participate_in",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/pages/blog/How-to-Access-My-App-with-NordVPN.md"
     }
   ],
-  "built_at_commit": "1cf906632bae2c667455a60f16618f8b34d43ab7"
+  "built_at_commit": "315e90156c692109aa39e5bc0cce5c8e6692a9eb"
 }

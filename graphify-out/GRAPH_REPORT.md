@@ -1,16 +1,16 @@
 # Graph Report - wbtist.github.io  (2026-09-27)
 
 ## Corpus Check
-- 25 files · ~184,062 words
+- 24 files · ~183,462 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 51 nodes · 36 edges · 17 communities (8 shown, 9 thin omitted)
-- Extraction: 92% EXTRACTED · 8% INFERRED · 0% AMBIGUOUS · INFERRED: 3 edges (avg confidence: 0.83)
+- 50 nodes · 35 edges · 17 communities (7 shown, 10 thin omitted)
+- Extraction: 91% EXTRACTED · 9% INFERRED · 0% AMBIGUOUS · INFERRED: 3 edges (avg confidence: 0.83)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `1cf90663`
+- Built from commit: `315e9015`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -40,8 +40,8 @@
 6. `Fire & Ice Design System` - 2 edges
 7. `Brand Stylist Subagent Spec` - 2 edges
 8. `Script Optimizer Subagent Spec` - 2 edges
-9. `How to Access My App with NordVPN` - 2 edges
-10. `private` - 1 edges
+9. `private` - 1 edges
+10. `dev` - 1 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Brand Stylist Subagent Spec` --semantically_similar_to--> `Fire & Ice Design System`  [INFERRED] [semantically similar]
@@ -60,9 +60,8 @@
 
 ## Hyperedges (group relationships)
 - **Antigravity Agent Subsystem Orchestration** — agents_agents_antigravity_directives, agents_brand_stylist_brand_stylist_agent, agents_webapp_tester_webapp_tester_agent, agents_script_optimizer_script_optimizer_agent, agents_doc_coauthoring_doc_coauthoring_agent [EXTRACTED 1.00]
-- **VPN & Financial Utility Blog Ecosystem** — src_pages_blog_how_to_access_my_app_with_nordvpn_nordvpn_guide, src_pages_blog_why_revolut_premium_is_a_no_brainer_revolut_guide, src_pages_blog_multilingual_speech_to_insight_engine_speech_engine [EXTRACTED 1.00]
 
-## Communities (17 total, 9 thin omitted)
+## Communities (17 total, 10 thin omitted)
 
 ### Community 0 - "Agent & CI/CD Workflows"
 Cohesion: 0.22
@@ -84,21 +83,17 @@ Nodes (6): scripts, astro, build, dev, preview, start
 Cohesion: 0.40
 Nodes (4): ../components/AboutSection.astro, ../components/ProjectsTable.astro, apps, games
 
-### Community 5 - "Blog Articles"
-Cohesion: 0.67
-Nodes (3): How to Access My App with NordVPN, Multilingual Speech-to-Insight Engine, Why Revolut Premium Is A No-Brainer
-
 ## Knowledge Gaps
 - **31 isolated node(s):** `name`, `version`, `private`, `dev`, `start` (+26 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **9 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **10 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `scripts` connect `NPM Build Scripts` to `Project Manifest Dependencies`?**
-  _High betweenness centrality (0.037) - this node is a cross-community bridge._
+  _High betweenness centrality (0.038) - this node is a cross-community bridge._
 - **Why does `../layouts/BaseLayout.astro` connect `Layouts & Blog Templates` to `Homepage Components`?**
-  _High betweenness centrality (0.036) - this node is a cross-community bridge._
+  _High betweenness centrality (0.037) - this node is a cross-community bridge._
 - **What connects `name`, `version`, `private` to the rest of the system?**
   _31 weakly-connected nodes found - possible documentation gaps or missing edges._
